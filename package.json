@@ -1,5 +1,5 @@
 {
-  "name": "og-is-client-side",
+  "name": "is-client-side",
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack --mode development --devtool eval-source-map ./index.ts --output ./dist/isClientSide.js",

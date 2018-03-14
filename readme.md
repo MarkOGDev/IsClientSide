@@ -15,7 +15,7 @@ true()                  | Static   | Boolean                | IsClientSide.true(
 false()                 | Static   | Boolean                | IsClientSide.false()              | Returns ***False*** if ***any*** client side checks are false.
  
 
- ## TypeScript Example
+ ## Example
 
 Usefull to stop client code executing on server side.
 

@@ -1,0 +1,28 @@
+{
+  "name": "og-is-client-side",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "webpack --mode development --devtool eval-source-map ./index.ts --output ./dist/isClientSide.js",
+    "prod": "webpack --mode production ./index.ts --output ./dist/isClientSide.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarkOGDev/IsClientSide"
+  },
+  "description": "Helps us know when Javascript/Typescript code is executing client side or server side.",
+  "main": "src/index.ts",
+  "keywords": [],
+  "author": "MarkOG",
+  "license": "private",
+  "private": false,
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "ts-loader": "^4.0.1",
+    "typescript": "^2.7.2",
+    "webpack-cli": "^2.0.10",
+    "webpack": "^4.1.0"
+  }
+}

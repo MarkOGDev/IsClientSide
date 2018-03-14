@@ -1,0 +1,24 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "target": "es5",
+    "rootDir": "./",
+    "outDir": "./distvs"
+  },
+
+  "files": [
+    "index.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "obj"
+  ]
+}
+
+//NOTE: Visual Studio properties for this file: Must have 'Build Action' set to 'Content'
+//otherwize when doing a build VS wont use the settings in here to compile ts/js files
+

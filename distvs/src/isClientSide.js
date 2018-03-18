@@ -27,7 +27,7 @@ var IsClientSide = /** @class */ (function () {
         return IsClientSide.windowAvailable() && IsClientSide.documentAvailable();
     };
     /**
-     * Returns True if anyof our client side check fail.
+     * Returns True if any of our client side check fail.
      */
     IsClientSide.false = function () {
         return (!IsClientSide.true());

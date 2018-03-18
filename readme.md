@@ -19,18 +19,18 @@ documentAvailable()     | Static   | Boolean                | IsClientSide.docum
  All functions return only True or False. No need to worry about 'undefined'. 
 
  You only really need the IsClientSide.false() function.
-
-
-
- ## TODO: Add Import statement  example
+ 
 
  ## Example 
+
 
 
 Useful to stop client code executing on server side. 
  
 
 ```javascript
+import { IsClientSide } from 'is-client-side';
+
 if (IsClientSide.false()) { 
     return null;
 }

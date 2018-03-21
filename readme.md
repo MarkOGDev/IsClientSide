@@ -4,17 +4,42 @@
 
 Use to check if JavaScript Code is on the client or server.
 
+# Install
+https://www.npmjs.com/package/is-client-side
 
-## Methods
-
-Name                    | Type     | Return Type            | Usage                             | Action
----                     |  ---     | ---                    | ---                               | ---
-true()                  | Static   | Boolean                | IsClientSide.true()               | Returns ***True*** if ***all*** our client side checks are true. Meaning code is executing on the client side (e.g. in the browser).
-false()                 | Static   | Boolean                | IsClientSide.false()              | Returns ***True*** if ***any*** client side checks are false. Meaning code is executing on the server side (e.g. in Node).
-windowAvailable()       | Static   | Boolean                | IsClientSide.windowAvailable()    | Returns ***True*** if Window Is available.
-documentAvailable()     | Static   | Boolean                | IsClientSide.documentAvailable()  | Returns ***True*** if Document is Available.
+```
+npm install is-client-side
+```
 
 
+## API
+
+```
+IsClientSide.true()
+```
+
+* Return Type: Boolean 
+* Action: Returns ***True*** if ***all*** our client side checks are true. Meaning code is executing on the client side (e.g. in the browser).
+
+```
+IsClientSide.false()
+```
+* Return Type: Boolean 
+* Action: Returns ***True*** if ***any*** client side checks are false. Meaning code is executing on the server side (e.g. in Node).
+* 
+```
+IsClientSide.windowAvailable()
+```
+* Return Type: Boolean 
+* Action: Returns ***True*** if Window Is available.
+* 
+```
+IsClientSide.documentAvailable()
+```
+* Return Type: Boolean 
+* Action:  Returns ***True*** if Document is Available.
+
+ 
 
  All functions return only True or False. No need to worry about 'undefined'. 
 

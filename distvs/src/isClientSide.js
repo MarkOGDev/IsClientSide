@@ -35,4 +35,3 @@ var IsClientSide = /** @class */ (function () {
     return IsClientSide;
 }());
 exports.IsClientSide = IsClientSide;
-//# sourceMappingURL=isClientSide.js.map

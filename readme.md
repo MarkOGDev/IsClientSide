@@ -1,10 +1,11 @@
-﻿# IsClientSide
+﻿
+# IsClientSide
 
  
 
 Use to check if JavaScript Code is on the client or server.
 
-# Install
+## Install
 https://www.npmjs.com/package/is-client-side
 
 ```
@@ -46,7 +47,7 @@ IsClientSide.documentAvailable()
  You only really need the IsClientSide.false() function.
  
 
- ## Example 
+ ## Example
 
 
 

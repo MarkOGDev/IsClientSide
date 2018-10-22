@@ -12,29 +12,32 @@ https://www.npmjs.com/package/is-client-side
 npm install is-client-side
 ```
 
+## Demo
+
+https://markogdev.github.io/IsClientSide/demo
 
 ## API
 
-```
+```js
 IsClientSide.true()
 ```
 
 * Return Type: Boolean 
 * Action: Returns ***True*** if ***all*** our client side checks are true. Meaning code is executing on the client side (e.g. in the browser).
 
-```
+```js
 IsClientSide.false()
 ```
 * Return Type: Boolean 
 * Action: Returns ***True*** if ***any*** client side checks are false. Meaning code is executing on the server side (e.g. in Node).
-* 
-```
+ 
+```js
 IsClientSide.windowAvailable()
 ```
 * Return Type: Boolean 
 * Action: Returns ***True*** if Window Is available.
-* 
-```
+ 
+```js
 IsClientSide.documentAvailable()
 ```
 * Return Type: Boolean 
@@ -65,4 +68,18 @@ if (IsClientSide.false()) {
  
 
 
-  
+ ## Typescript Building
+ 
+We are using Webpack to compile typescript files and convert to Javascript that can run standard web browsers.
+
+We don't want Visual Studio to compile the Typescript files.
+
+Therefore we have we have both set the 'build action' of the Typescript files to 'None' 
+and we have modified the project file IsClientSide.csproj to include a TypeScriptCompileBlocked element as below.
+
+ ```xml
+<PropertyGroup>
+   <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+   ...
+<PropertyGroup/>
+```

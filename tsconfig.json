@@ -4,10 +4,14 @@
     "allowJs": false,
     "module": "commonjs",
     "moduleResolution": "node",
-   // "sourceMap": true,
     "target": "es5",
     "rootDir": "./",
-    "outDir": "./distvs"
+    //We don't want Visual Studio to compile the Typescript. We are using Webpack.
+    //We have set the build action of the Typescript files to 'None'
+    //We have also added a line to the project file IsClientSide.csproj.
+    //WE have added the following line to the 'PropertyGroup' section.
+    //<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
+    "outDir": "./distvs" //Just in case Visual Studio does compile TypeScript files, store the results in this folder.
   },
 
   "files": [
@@ -19,6 +23,4 @@
   ]
 }
 
-//NOTE: Visual Studio properties for this file: Must have 'Build Action' set to 'Content'
-//otherwize when doing a build VS wont use the settings in here to compile ts/js files
 

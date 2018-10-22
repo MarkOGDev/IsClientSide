@@ -2,6 +2,7 @@
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.Default.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>
@@ -58,8 +59,6 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="demo\index.html" />
-    <Content Include="distvs\index.js" />
-    <Content Include="distvs\src\isClientSide.js" />
     <Content Include="dist\isClientSide.js" />
     <Content Include="dist\isClientSide.min.js" />
     <Content Include="readme-non-git.md" />
@@ -75,15 +74,11 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="index.ts" />
-    <TypeScriptCompile Include="src\isClientSide.ts" />
+    <None Include="index.ts" />
+    <None Include="src\isClientSide.ts" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="distvs\index.js.map" />
-    <Content Include="distvs\src\isClientSide.js.map" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENCE" />

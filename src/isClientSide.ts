@@ -1,10 +1,7 @@
-﻿ 
-
-class IsClientSide { 
-      
+﻿ class IsClientSide {       
      
     /** 
-     * Returns True if Window Is available 
+     * Returns True if Window Is available.
      */
     static windowAvailable(): boolean {
         const windowAvailable = (typeof window !== "undefined" && window !== null) ? true : false;
@@ -14,7 +11,7 @@ class IsClientSide {
 
 
     /**
-     * Returns True if Document is Available
+     * Returns True if Document is Available.
      */
     static documentAvailable(): boolean {
         const documentAvailable = (typeof document !== "undefined" && document !== null) ? true : false;
@@ -39,6 +36,5 @@ class IsClientSide {
     }
 
 } 
-
 
 export { IsClientSide } 

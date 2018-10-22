@@ -16,12 +16,10 @@ const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 const config = {
     watch: true,
-    //example mode for separate config
-    //mode: develoment
     output: {
         libraryTarget: 'umd'
     },  
-    //in mode: production optimizations happen. here we add extra config for that optimization.
+    //production mode optimizations. Add our config for that optimization.
     optimization: {
         minimizer: [
             new UglifyJSPlugin({

@@ -16,6 +16,9 @@ npm install is-client-side
 
 https://markogdev.github.io/IsClientSide/demo
 
+[demo local](/dist/demo/)
+
+
 ## API
 
 ```js

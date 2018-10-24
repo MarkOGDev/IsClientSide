@@ -5,13 +5,14 @@
 
 Use to check if JavaScript Code is on the client or server.
 
-## Nice Docs
+## Nice Git Page
 
-https://markogdev.github.io/IsClientSide/
+[https://markogdev.github.io/IsClientSide/](https://markogdev.github.io/IsClientSide/)
 
 
 ## Install
-https://www.npmjs.com/package/is-client-side
+
+[https://www.npmjs.com/package/is-client-side](https://www.npmjs.com/package/is-client-side)
 
 ```
 npm install is-client-side

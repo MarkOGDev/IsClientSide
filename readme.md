@@ -14,33 +14,31 @@ npm install is-client-side
 
 ## Demo
 
-https://markogdev.github.io/IsClientSide/demo
-
-[demo local](/dist/demo/)
+[Demo Link](dist/demo/) 
 
 
 ## API
 
-```js
+```javascript
 IsClientSide.true()
 ```
 
 * Return Type: Boolean 
 * Action: Returns ***True*** if ***all*** our client side checks are true. Meaning code is executing on the client side (e.g. in the browser).
 
-```js
+```javascript
 IsClientSide.false()
 ```
 * Return Type: Boolean 
 * Action: Returns ***True*** if ***any*** client side checks are false. Meaning code is executing on the server side (e.g. in Node).
  
-```js
+```javascript
 IsClientSide.windowAvailable()
 ```
 * Return Type: Boolean 
 * Action: Returns ***True*** if Window Is available.
  
-```js
+```javascript
 IsClientSide.documentAvailable()
 ```
 * Return Type: Boolean 

@@ -58,7 +58,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="demo\index.html" />
     <Content Include="dist\demo\index.html" />
     <Content Include="dist\isClientSide.js" />
     <Content Include="dist\isClientSide.min.js" />

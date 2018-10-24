@@ -18,6 +18,9 @@ Use to check if JavaScript Code is on the client or server.
 npm install is-client-side
 ```
 
+We also have a Javascipt compiled version in the dist folder that we are using for our demo.
+
+
 ## Demo
 
 [Demo Link](dist/demo/) 
@@ -56,6 +59,8 @@ IsClientSide.documentAvailable()
 
  You only really need the IsClientSide.false() function.
  
+
+
 
  ## Example
 

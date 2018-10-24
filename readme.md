@@ -5,6 +5,11 @@
 
 Use to check if JavaScript Code is on the client or server.
 
+## Nice Docs
+
+https://markogdev.github.io/IsClientSide/
+
+
 ## Install
 https://www.npmjs.com/package/is-client-side
 

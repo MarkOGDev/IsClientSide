@@ -2,20 +2,46 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title></title>
+    <title>Javascript is-client-side Demo</title>
+    <script src="../isClientSide.min.js"></script>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        .output {
+            color: green;
+            margin-left: 40px;
+        }
+
+        p {
+            margin-bottom: 2rem;
+        }
+    </style>
 </head>
 <body>
 
-    <h1>is-client-side</h1>
-
-    <script src="../isClientSide.min.js"></script> 
-
-    <script>
-        document.write('IsClientSide.true() = ' + IsClientSide.true());
+    <h1>Javascript<br /><em>is-client-side</em><br />Demo</h1>
+    <p>This Demo is running client side</p>
 
 
-        document.write('<br /><br />IsClientSide.false() = ' + IsClientSide.false());
-    </script>
+    <h2>Calling IsClientSide.true()</h2>
+    <p class="output">
+        <script>
+            document.write('IsClientSide.true() = ' + IsClientSide.true());
+        </script>
+    </p>
 
+    <h2>Calling IsClientSide.false()</h2>
+    <p class="output">
+        <script>
+            document.write('IsClientSide.false() = ' + IsClientSide.false());
+        </script>
+    </p>
+
+
+    <p>
+        <a href="https://markogdev.github.io/IsClientSide/" target="_blank">Read More at the Is-Client-Side Published Docs</a>
+    </p>
 </body>
 </html>

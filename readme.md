@@ -62,7 +62,7 @@ IsClientSide.documentAvailable()
 
 
 
- ## Example
+## Example
 
 
 
@@ -80,7 +80,7 @@ if (IsClientSide.false()) {
  
 
 
- ## Typescript Building
+## Typescript Building
  
 We are using Webpack to compile typescript files and convert to Javascript that can run standard web browsers.
 

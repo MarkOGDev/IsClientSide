@@ -1,6 +1,6 @@
 {
   "name": "is-client-side",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "scripts": {
     "dev": "webpack --mode development --devtool eval-source-map ./src/isClientSide.ts --output ./dist/isClientSide.js",
     "prod": "webpack --mode production ./src/isClientSide.ts --output ./dist/isClientSide.min.js"

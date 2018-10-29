@@ -267,5 +267,5 @@ __pycache__/
 # custom entries
 bin/
 obj/
-readme-non-git.md 
+/PrivateReadme
 /readme.html

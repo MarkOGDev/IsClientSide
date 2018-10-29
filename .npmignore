@@ -2,3 +2,7 @@
 .git/
 bin/
 obj/
+PrivateReadme/
+.gitattributes 
+
+ 

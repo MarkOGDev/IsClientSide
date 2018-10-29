@@ -63,10 +63,7 @@
     <Content Include="dist\demo\index.html" />
     <Content Include="dist\isClientSide.js" />
     <Content Include="dist\isClientSide.min.js" />
-    <Content Include="readme-non-git.md" />
-    <Content Include="readme.html">
-      <DependentUpon>readme.md</DependentUpon>
-    </Content>
+    <Content Include="PrivateReadme\readme-non-git.md" />
     <Content Include="tsconfig.json" />
     <Content Include="package.json" />
     <Content Include="package-lock.json" />

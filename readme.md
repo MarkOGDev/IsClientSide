@@ -23,8 +23,9 @@ We also have a Javascipt compiled version in the dist folder that we are using f
 
 ## Demo
 
-[Demo Link](dist/demo/) 
+[Demo Code](dist/demo/) 
 
+[Live Demo](https://markogdev.github.io/IsClientSide/dist/demo/)
 
 ## API
 

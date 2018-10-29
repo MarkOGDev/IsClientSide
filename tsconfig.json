@@ -1,26 +1,23 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./dist",
     "allowJs": false,
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es5",
-    "rootDir": "./",
+
     //We don't want Visual Studio to compile the Typescript. We are using Webpack.
     //We have set the build action of the Typescript files to 'None'
-    //We have also added a line to the project file IsClientSide.csproj.
+    //We have also modified the visula studio project file IsClientSide.csproj.
     //WE have added the following line to the 'PropertyGroup' section.
     //<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
-    "outDir": "./distvs" //Just in case Visual Studio does compile TypeScript files, store the results in this folder.
-  },
 
-  "files": [
-    "index.ts"
-  ],
-  "exclude": [
-    "node_modules",
-    "obj"
-  ]
+    //Just in case Visual Studio does compile TypeScript files, store the results in a separate folder
+    "rootDir": "./src",
+    "outDir": "./distvs"
+  }
 }
 
 

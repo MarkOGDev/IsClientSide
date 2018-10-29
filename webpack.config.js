@@ -1,25 +1,14 @@
 ﻿"use strict";
-
-/**
- * We can use separate config files if you want to define lots of options.
- * you would add mode: develoment || production to the webpack config
- * You set the --config flag in the npm script in package.json
- * otherwise you can set the options in the npm script.
- * 
- * 
- */
-
-//const webpack = require('webpack');
+ 
 const path = require('path'); 
 const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
-
 
 const config = {
     watch: true,
     output: {
         libraryTarget: 'umd'
     },  
-    //production mode optimizations. Add our config for that optimization.
+    //Add our config for production mode optimizations optimization.
     optimization: {
         minimizer: [
             new UglifyJSPlugin({
@@ -53,13 +42,10 @@ const config = {
 
     ],
     resolve: {
-        extensions: ['.tsx', '.ts', '.js']
+        extensions: ['.ts']
     }
 
 };
-
-
-
 
 module.exports = config;
 

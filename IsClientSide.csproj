@@ -77,7 +77,6 @@
     <Folder Include="Properties\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="index.ts" />
     <None Include="src\isClientSide.ts" />
   </ItemGroup>
   <ItemGroup>
@@ -85,6 +84,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="LICENCE" />
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="dist\isClientSide.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -2,15 +2,16 @@
   "name": "is-client-side",
   "version": "1.0.6",
   "scripts": {
-    "dev": "webpack --mode development --devtool eval-source-map ./index.ts --output ./dist/isClientSide.js",
-    "prod": "webpack --mode production ./index.ts --output ./dist/isClientSide.min.js"
+    "dev": "webpack --mode development --devtool eval-source-map ./src/isClientSide.ts --output ./dist/isClientSide.js",
+    "prod": "webpack --mode production ./src/isClientSide.ts --output ./dist/isClientSide.min.js"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/MarkOGDev/IsClientSide.git"
   },
   "description": "Helps us know when Javascript/Typescript code is executing client side or server side.",
-  "main": "src/index.ts",
+  "main": "dist/isClientSide.js",
+  "types": "dist/isClientSide.d.ts",
   "keywords": [
     "client",
     "server",
@@ -32,6 +33,6 @@
     "typescript": "^3.1.2",
     "webpack": "^4.20.2",
     "webpack-cli": "^3.1.2",
-    "uglifyjs-webpack-plugin": "2.0.1"
+    "uglifyjs-webpack-plugin": "^2.0.1"
   }
 }

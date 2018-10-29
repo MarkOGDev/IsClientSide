@@ -58,6 +58,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include=".gitattributes" />
+    <Content Include=".gitignore" />
     <Content Include="dist\demo\index.html" />
     <Content Include="dist\isClientSide.js" />
     <Content Include="dist\isClientSide.min.js" />
@@ -78,6 +80,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="src\isClientSide.ts" />
+    <Content Include="_config.yml" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />

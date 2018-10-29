@@ -15,7 +15,7 @@
     //<TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
 
     //Just in case Visual Studio does compile TypeScript files, store the results in a separate folder
-    "rootDir": "./",
+    "rootDir": "./src",
     "outDir": "./distvs"
   }
 }
